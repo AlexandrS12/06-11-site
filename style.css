@@ -3,6 +3,8 @@ body{
     background-image: url(2.jpg);
     background-repeat: no-repeat;
     background-size: auto;
+    margin: 0;
+    background-attachment: fixed;
 }
 .grid {
     display: grid;
@@ -108,4 +110,8 @@ body{
     line-height: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 0.2em;
+}
+
+
+@media (max-width: 768px) {
 }
